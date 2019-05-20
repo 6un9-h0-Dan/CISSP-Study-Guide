@@ -1,7 +1,19 @@
-# Security and Risk Management
+# Security and Risk Management (15%)
 
-[Back to Home Page](https://github.com/so87/CISSP-Cheat-Sheet-) <br />
-[To next domain! - D2 - Asset Security](https://github.com/so87/CISSP-Cheat-Sheet-/blob/master/D2%20-%20Asset%20Security.md) <br />
+## 12 Topics
+
+1. CIA Concepts
+2. Security Governance Principals
+3. Compliance Requirements
+4. Legal and Regulatory Issues Pertaining to Infosec in a Global Context
+5. Professional Ethics
+6. Security, Policies, Standards, Procedures, and Guidelines
+7. Business Continuity Requirements
+8. Personnel Security Policies and Procedures
+9. Risk Management Concepts
+10. Threat Modelling Concepts and Strategies
+11. Apply Risk Management Concepts to the Supply Chain
+12. Security Awareness, Training, and Education Programs
 
 ### Understand and apply concepts of confidentiality, integrity and availability
 #### Definitions and examples
@@ -23,7 +35,6 @@ CIA TRIAD - You can't have maximum levels of everything
 <p align="center">
   <img width="460" height="300" src="https://downgrade.org/wp-content/uploads/2006/10/figure2.gif">
 </p>
-
 
 ### Evaluate and apply security governance principles
 ##### English please?? - These are just defined roles, and processes for each role, to make sure executive management is informed about IT decisions being made.  This makes sure that information is appropriately secured, communicated, documented, and budgeted for.  It's like a questionaire.  Look at ISO 27000 to get requimrents for which security frameworks you should impliment.  Think of security frameworks as blue prints and governance principles(iso 27000 or togaf) as guides for how to draw blueprints.
@@ -120,6 +131,3 @@ Examples below
 * Methods and techniques to present awareness and training - need to always train people constantly in security awarness or it doesn't work. always echo it.  disaster recovery is always way more expensive.
 * Periodic content reviews - make sure as new responsibilities and processes arise that we have security training in mind for them. make sure we are being aware of current threats
 * Program effectiveness evaluation - track enforcement and enhancement of security initiatives. periodic walk throughs and quizes to make sure people are staying up to date
-
-[Back to Home Page](https://github.com/so87/CISSP-Cheat-Sheet-) <br />
-[To next domain! - D2 - Asset Security](https://github.com/so87/CISSP-Cheat-Sheet-/blob/master/D2%20-%20Asset%20Security.md) <br />
