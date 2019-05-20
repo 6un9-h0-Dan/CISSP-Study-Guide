@@ -17,51 +17,53 @@
 
 ### Understand and apply concepts of confidentiality, integrity and availability
 #### Definitions and examples
-* Confidentiality - Making sure the right people can access the material.  Data must be classified so the administrators knows exactly who should have access.  Users must Identify themselves, authenticate, and then be given authorization before having access.  Contents must be encrypted or restricted for users who don't do the above.
-  * End to End symetric encryption holds confidentiality because only users with a key can see the data
-  * File permissions only allow authorized users to view the contents
-* Integrity - Protected from changes
-  * Hashing
-  * Segregation of duties
-  * approval checkpoints (SDLC)
-  * RSA(uses HMC)
-  * IPSec
-* Availability - Information is available to users when they need it
-  * Not vulnerable to DOS
-  * Has backups and redundancy to ensure no downtime
-  
-#### How do they relate to each other?
-CIA TRIAD - You can't have maximum levels of everything
+CIA TRIAD - You can't have maximum levels of everything, and you cannot remove all risk (managed by ISO 27005).
 <p align="center">
   <img width="460" height="300" src="https://downgrade.org/wp-content/uploads/2006/10/figure2.gif">
 </p>
+* Confidentiality - Making sure only the correct people can access the material. Data must be classified so the administrators knows exactly who should have access. Users must Identify themselves, authenticate, and then be given authorization before having access, at which point they will be held accountable. Contents must be encrypted or restricted for users who don't meet the above.
+  * End to End symetric encryption holds confidentiality because only users with a key can see the data
+  * File permissions only allow authorized users to view the contents
+* Integrity - Ensure data is protected from unauthorised changes
+  * Hashing
+  * Change management
+  * Segregation of duties
+  * Approval checkpoints (SDLC)
+  * RSA(uses HMC)
+  * IPSec
+* Availability - Information is available to users when they need it
+  * Not vulnerable to DoS
+  * Countermeasures: RAID, monitoring network traffic, BCP, fault tolerant systems etc
+  * Information has backups and redundancy to ensure no downtime
+
+Prioritisation should not be rushed, and security as a whole requires people, process, and technology.
+NIST SP 800-12 Rev.1 = Elements of Computer Security
 
 ### Evaluate and apply security governance principles
-##### English please?? - These are just defined roles, and processes for each role, to make sure executive management is informed about IT decisions being made.  This makes sure that information is appropriately secured, communicated, documented, and budgeted for.  It's like a questionaire.  Look at ISO 27000 to get requimrents for which security frameworks you should impliment.  Think of security frameworks as blue prints and governance principles(iso 27000 or togaf) as guides for how to draw blueprints.
-* Alignment of security function to business strategy, goals, mission, and objectives
-  * Have to analyze cost of loss/thieft information, cost to impliment controls, and the benefit to organization by certain controls.
+#### These are just defined roles, and processes for each role, which make sure executive management is informed about any ICT decisions. This ensures information is appropriately secured, communicated, documented, and budgeted for. It's like a questionaire. Look at ISO 27000 to get requirements for which security frameworks you should impliment. Think of security frameworks as blue prints and governance principles(iso 27000 or TOGAF) as guides for how to draw blueprints.
+* Alignment of security function to business strategy, goals, mission, and objectives by providing strategic direction.
+  * Have to analyze cost of loss/theft information, cost to implement controls, and the benefit to organization by certain controls.
 * Organizational processes (e.g., acquisitions, divestitures, governance committees)
-  * if the business changes at all, security needs to be involved in that changing process. apply frameworks to those processes.
+  * if the business changes at all, security needs to be involved in that changing process. Apply frameworks to those processes.
 * Organizational roles and responsibilities
-  * different job titles have to work with others and be aware of things.  each job has a checklist of things to be concerend about.  some positions will be reponsible for risk on certain decisions.
+  * Different job titles have to work with others and be aware of things.  each job has a checklist of things to be concerend about.  some positions will be reponsible for risk on certain decisions.
 * Security control frameworks
   * the blue prints to how security in the organization is done.  ex. if you are going to label an area on a blueprint as a "bed room", it needs to meet certain requirements. certain frameworks need to be applied to your organization based off what you contain.
 * Due care/due diligence
   *  legal perspective. What would a "reasonable person" due in the same circumstance if they were being responsible?
-##### Difference between Process/architecture/framework/standard?
+#### Difference between Process/architecture/framework/standard?
 * Process:  A set up steps to accomplish a task.
 * Architecture: specifies when and where to apply security controls.  Describes interactions and roles
 * Framework: A set up processes with implimentation guidance
 * Standard:  A set of requirements, roles, and controls/frameworks to impliment
 
 ### Determine compliance requirements
-##### Governments are required to impliment NIST 800-53.  Private sector is required to implimented COBIT.  Many businesses end up implimenting part of each framework to meet its business objectives.
+#### Governments are required to impliment NIST 800-53.  Private sector is required to implimented COBIT.  Many businesses end up implimenting part of each framework to meet its business objectives.
 Organizations operate in environments where laws, regulations, and compliance requirements must be met.  Want to handle peoples cred cards? - must meet certain requirements and impliment certain frameworks. Want to be a defense contractor? - same as before.
 * Contractual, legal, industry standards, and regulatory requirements
   * one example is all federal agencies are required to ahere to FISMA. Gives list of requirements because they handle mission information as well as PIV.
 * Privacy requirements
   * Mitre has a good framework for dealing with privacy.  You just need to identify what data you process and see if it applies in your TOGAF or other blueprint guidlines you are following.
-
 
 ### Understand legal and regulatory issues that pertain to information security in a global context
 * Cyber crimes and data breaches
@@ -69,7 +71,7 @@ Organizations operate in environments where laws, regulations, and compliance re
 * Import/export controls
 * Trans-border data flow
 * Privacy
-##### Difference between Criminal Law/Common Law/Private law/Civil Law/Federal Law/
+#### Difference between Criminal Law/Common Law/Private law/Civil Law/Federal Law/
 * Criminal Law: punished by jail, fine, or death
 * Common Law: jury makes decision. then judge decides punishment
 * Civil Law: never incarcerated or executed.  Have to reimburse the plaintiff
@@ -116,7 +118,6 @@ Examples below
   * ISO 2009
   * NIST RMF Framework
   
-
 ### Understand and apply threat modeling concepts and methodologies
 * Threat modeling methodologies - make scope, applicable attack vectors, vulnerabilities open, risks, and countermeasures. should result in architecture changes, remediation actions, and good data for a risk report
 * Threat modeling concepts - same as above
