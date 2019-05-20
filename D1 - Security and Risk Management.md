@@ -51,6 +51,7 @@ NIST SP 800-12 Rev.1 = Elements of Computer Security
   * the blue prints to how security in the organization is done.  ex. if you are going to label an area on a blueprint as a "bed room", it needs to meet certain requirements. certain frameworks need to be applied to your organization based off what you contain.
 * Due care/due diligence
   *  legal perspective. What would a "reasonable person" due in the same circumstance if they were being responsible?
+  *  Known as the Prudent Person Principle
 * Infosec Governance: Strategic alignment, risk management via measures, risk management via knowledge and infrastructure, performance management via measuring monitoring and reporting metrics based on objectives, and value delivery by optimizing investments supporting objectives.
 #### Difference between Process/architecture/framework/standard?
 * Process:  A set up steps to accomplish a task.
