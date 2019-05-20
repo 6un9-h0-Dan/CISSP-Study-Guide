@@ -1,4 +1,4 @@
-# Security and Risk Management (15%)
+# Security and Risk Management (15% of Exam)
 
 ## 12 Topics
 
@@ -40,7 +40,7 @@ Prioritisation should not be rushed, and security as a whole requires people, pr
 NIST SP 800-12 Rev.1 = Elements of Computer Security
 
 ### Evaluate and apply security governance principles
-#### These are just defined roles, and processes for each role, which make sure executive management is informed about any ICT decisions. This ensures information is appropriately secured, communicated, documented, and budgeted for. It's like a questionaire. Look at ISO 27000 to get requirements for which security frameworks you should impliment. Think of security frameworks as blue prints and governance principles(iso 27000 or TOGAF) as guides for how to draw blueprints.
+#### These are just defined roles, and processes for each role, which make sure executive management is informed about any ICT decisions. This ensures information is appropriately secured, communicated, documented, and budgeted for. It's like a questionaire. Look at ISO 27000 to get requirements for which security frameworks you should impliment. Think of security frameworks as blue prints and governance principles(ISO 27000 or TOGAF) as guides for how to draw blueprints.
 * Alignment of security function to business strategy, goals, mission, and objectives by providing strategic direction.
   * Have to analyze cost of loss/theft information, cost to implement controls, and the benefit to organization by certain controls.
 * Organizational processes (e.g., acquisitions, divestitures, governance committees)
@@ -51,14 +51,18 @@ NIST SP 800-12 Rev.1 = Elements of Computer Security
   * the blue prints to how security in the organization is done.  ex. if you are going to label an area on a blueprint as a "bed room", it needs to meet certain requirements. certain frameworks need to be applied to your organization based off what you contain.
 * Due care/due diligence
   *  legal perspective. What would a "reasonable person" due in the same circumstance if they were being responsible?
+* Infosec Governance: Strategic alignment, risk management via measures, risk management via knowledge and infrastructure, performance management via measuring monitoring and reporting metrics based on objectives, and value delivery by optimizing investments supporting objectives.
 #### Difference between Process/architecture/framework/standard?
 * Process:  A set up steps to accomplish a task.
 * Architecture: specifies when and where to apply security controls.  Describes interactions and roles
 * Framework: A set up processes with implimentation guidance
-* Standard:  A set of requirements, roles, and controls/frameworks to impliment
+* Standard:  A set of requirements, roles, and controls/frameworks to implement
+#### Regulations and Liabilities
+* HIPAA - Health Insurance Portability and Accountability Act of 1996 (US legislation for data privacy and security towards safeguarding medical information)
+* SOX - Sarbanes-Oxley Act of 2002 (US congress legislation to protect from fraudulent practices and improve on corporate disclosures. Section 302: CEO/CFO can be sent to jail when information they sign is incorrect. Section 404: Internal controls assessment, logical controls over accounting files, good auditing, and infosec.
 
 ### Determine compliance requirements
-#### Governments are required to impliment NIST 800-53.  Private sector is required to implimented COBIT.  Many businesses end up implimenting part of each framework to meet its business objectives.
+#### Governments are required to impliment NIST 800-53. Private sector is required to implement COBIT (Control Objectives for Information and Related Technology) which examines the effectiveness, efficiency, confidentiality, integrity, availability, compliance, and reliability of high level control objectives.  Many businesses end up implimenting part of each framework to meet its business objectives.
 Organizations operate in environments where laws, regulations, and compliance requirements must be met.  Want to handle peoples cred cards? - must meet certain requirements and impliment certain frameworks. Want to be a defense contractor? - same as before.
 * Contractual, legal, industry standards, and regulatory requirements
   * one example is all federal agencies are required to ahere to FISMA. Gives list of requirements because they handle mission information as well as PIV.
@@ -68,7 +72,10 @@ Organizations operate in environments where laws, regulations, and compliance re
 ### Understand legal and regulatory issues that pertain to information security in a global context
 * Cyber crimes and data breaches
 * Licensing and intellectual property requirements
-* Import/export controls
+* Import/export controls e.g. defense goods, arms export control act - ITAR (1976)
+* FERPA - Education
+* GLBA - Graham Leach Bliley; PII and credit related
+* ECS - Electronic Communication Service (europe); notice of breaches
 * Trans-border data flow
 * Privacy
 #### Difference between Criminal Law/Common Law/Private law/Civil Law/Federal Law/
